@@ -1,127 +1,107 @@
 <div align="center">
 
-<img width="100%" height="16" src="https://capsule-render.vercel.app/api?type=rect&color=0:050505,33:1D4ED8,66:6D28D9,100:B91C3C&height=16&section=header" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Diego%20Alves&fontSize=52&fontColor=B6FF3C&animation=fadeIn&fontAlignY=38&desc=Python%20%7C%20Web%20%7C%20Jogos%20%7C%20Projetos%20Interativos&descAlignY=58&descSize=18" width="100%"/>
 
-<br/><br/>
-
-<h1>Diego Alves</h1>
-
-<p><i>Estudante de programação. Criador em progresso.</i></p>
-
-<p>
-  <a href="https://github.com/DiegoAlvesDs?tab=repositories">Projetos</a>
-  &nbsp;·&nbsp;
-  <a href="#-tech-stack">Tecnologias</a>
-  &nbsp;·&nbsp;
-  <a href="#-atividade-em-tempo-real">Atividade</a>
-</p>
-
-<br/>
+<a href="https://github.com/DiegoAlvesDs">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Estudando+Python%2C+HTML%2C+CSS+e+JavaScript;Criando+jogos+e+projetos+interativos;Montando+meu+pr%C3%B3prio+curso+de+Python;Bem-vindo(a)+ao+meu+perfil+%F0%9F%90%8D&font=Fira+Code&center=true&width=600&height=45&color=B6FF3C&vCenter=true&size=22&pause=1500"/>
+</a>
 
 </div>
 
-> “A melhor forma de aprender a programar é construir algo que antes não existia.”
+<br>
 
-Eu sou Diego. Estudo **Python**, web e lógica de jogos. Este perfil é onde registro essa evolução: projetos que começaram pequenos, problemas que viraram aprendizado e ideias que saíram da tela de anotações para o navegador.
+<img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-snake-dark.svg" width="100%"/>
 
-<br/>
+<br>
+
+## 🐍 Sobre mim
+
+```python
+class Diego:
+    def __init__(self):
+        self.nome = "Diego Alves"
+        self.stack = ["Python", "HTML", "CSS", "JavaScript"]
+        self.foco = ["Jogos", "Web", "Projetos interativos"]
+        self.projeto_atual = "Meu próprio curso de Python 🐍"
+
+    def objetivo(self):
+        return "Aprender construindo — e construir coisas que valem a pena mostrar."
+
+diego = Diego()
+print(diego.objetivo())
+```
+
+- 🎯 Aprendendo **Python, HTML, CSS e JavaScript** na prática
+- 🎮 Curto criar **jogos e projetos interativos** do zero
+- 📚 Montando meu **próprio curso de Python** — ensinar é a melhor forma de aprender
+- 🌱 Sempre construindo algo novo pra colocar em prática o que estudei
+
+<br>
+
+## 🛠️ Stack
 
 <div align="center">
 
-<sub>BRASIL &nbsp;—&nbsp; CÓDIGO, CURIOSIDADE E CONSTÂNCIA</sub>
+<img src="https://skillicons.dev/icons?i=py,html,css,js,git,github,vscode&theme=dark" />
 
 </div>
 
----
+<br>
 
-## ✦ Tech stack
+## 🎮 Projeto em destaque
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&theme=dark&perline=7" alt="Python, JavaScript, HTML, CSS, Git, GitHub e VS Code"/>
+### 🐍 Cobrinha Infinita PRO
+
+Snake clássico levado ao extremo: **17 temas**, **8 modos de mapa** (Clássico, Caos, Espelho, Velocidade, Obstáculos...), **30+ skins** desbloqueáveis por nível ou moeda, ranking global e mecânicas com movimento suave e efeitos visuais próprios.
+
+[![Repo](https://img.shields.io/badge/📂_Repositório-Cobrinha--Infinita--PRO-B6FF3C?style=for-the-badge&logo=github&logoColor=black)](https://github.com/DiegoAlvesDs/Cobrinha-)
 
 </div>
 
-<br/>
+<br>
 
-| O que estudo | Como uso |
-|:--|:--|
-| **Python** | Lógica, automação e a base dos meus primeiros projetos |
-| **JavaScript** | Interações, jogos e experiências no navegador |
-| **HTML + CSS** | Estrutura, interface e responsividade |
-| **Git + GitHub** | Registro da jornada e publicação do que construo |
-
-<br/>
-
-<pre><code>aprendizado = curiosidade + prática + projetos_reais</code></pre>
-
----
-
-## ✦ Projetos em destaque
-
-### 01 — Python Snake
-
-<sub>JOGO · JAVASCRIPT · HTML · CSS · CANVAS</sub>
-
-Uma versão expandida do clássico jogo da cobrinha. Um projeto que começou em Python e cresceu até virar uma experiência completa no navegador.
-
-<a href="https://github.com/DiegoAlvesDs/Python_Snake">Ver repositório →</a>
-
-<br/><br/>
-
-### 02 — Aulas de Lógica
-
-<sub>PYTHON · EDUCAÇÃO · 50 EXERCÍCIOS</sub>
-
-Uma trilha autoral de lógica de programação em Python, com exercícios organizados do primeiro <code>print()</code> às funções aplicadas a problemas reais.
-
-<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">Explorar exercícios →</a>
-
-<br/><br/>
+## 📊 GitHub Stats
 
 <div align="center">
 
-<a href="https://github.com/DiegoAlvesDs/Python_Snake"><img height="140" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=transparent&hide_border=true&title_color=6D28D9&icon_color=B91C3C&text_color=8B8B8B" alt="Python Snake"/></a>
-<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas"><img height="140" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=transparent&hide_border=true&title_color=1D4ED8&icon_color=B91C3C&text_color=8B8B8B" alt="Aulas de Lógica"/></a>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=B6FF3C&icon_color=29E7CD&text_color=EAF7EE"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=DiegoAlvesDs&theme=github-dark-blue&hide_border=true&background=0D1117&ring=B6FF3C&fire=FFB84D&currStreakLabel=B6FF3C"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=B6FF3C&text_color=EAF7EE"/>
 
 </div>
 
----
+<br>
 
-## ✦ Atividade em tempo real
+## 🏆 Troféus
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=6D28D9&text_color=8B8B8B&icon_color=B91C3C&ring_color=1D4ED8" alt="Estatísticas do GitHub"/>
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=transparent&hide_border=true&title_color=1D4ED8&text_color=8B8B8B" alt="Linguagens mais usadas"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=transparent&hide_border=true&ring=6D28D9&fire=B91C3C&currStreakLabel=1D4ED8&sideLabels=8B8B8B&dates=8B8B8B" alt="Sequência de contribuições"/>
-
+<img src="https://github-profile-trophy.vercel.app/?username=DiegoAlvesDs&theme=algolia&no-frame=true&no-bg=true&margin-w=10&row=1"/>
 </div>
 
-<br/>
+<br>
+
+## 📈 Atividade recente
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<br>
 
 <div align="center">
 
-<!--START_SECTION:snake-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</picture>
-<!--END_SECTION:snake-->
+### 📫 Bora trocar ideia
 
-</div>
+<a href="https://github.com/DiegoAlvesDs"><img src="https://img.shields.io/badge/GitHub-DiegoAlvesDs-181717?style=for-the-badge&logo=github"/></a>
 
----
+<br><br>
 
-<div align="center">
+![Profile Views](https://komarev.com/ghpvc/?username=DiegoAlvesDs&color=B6FF3C&style=for-the-badge&label=Visualizações+do+perfil)
 
-<sub>EM CONSTRUÇÃO · UM PROJETO POR VEZ</sub>
+<br>
 
-<br/><br/>
-
-<img width="100%" height="16" src="https://capsule-render.vercel.app/api?type=rect&color=0:B91C3C,33:6D28D9,66:1D4ED8,100:050505&height=16&section=footer" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
 
 </div>
