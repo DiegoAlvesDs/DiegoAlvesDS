@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=250&section=header&text=Diego%20Alves&fontSize=50&fontColor=58A6FF&fontAlignY=40&animation=fadeIn&desc=%3C%20Full-Stack%20Dev%20em%20constru%C3%A7%C3%A3o%20%2F%3E&descSize=18&descAlignY=60&descColor=8B949E" alt="Banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Diego%20Alves&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Dev%20em%20aprendizado%20%7C%20Python%20%7C%20Web%20%7C%20Jogos&descSize=18&descAlignY=68" alt="Banner"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duplex=false&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=const+diego+%3D+%7B;+%C2%A0%C2%A0status%3A+%22aprendendo%22%2C;+%C2%A0%C2%A0stack%3A+%5B%22python%22%2C+%22js%22%2C+%22html%22%2C+%22css%22%5D;+%7D%3B" alt="Terminal typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Transformando+ideias+em+projetos+reais;Sempre+aprendendo+algo+novo;Criando.+Aprendendo.+Programando." alt="Terminal typing animation"/>
 
 <p>
   <a href="https://github.com/DiegoAlvesDs?tab=repositories">
@@ -20,14 +20,14 @@
 ```python
 class Diego:
     def __init__(self):
-        self.location = "🇧🇷 Brasil"
+        self.location = "Brasil"
         self.role = "Dev em aprendizado"
         self.languages = ["Python", "JavaScript", "HTML", "CSS"]
         self.focus = ["Web", "Jogos", "Projetos interativos"]
-        self.current_project = "Curso próprio de Python"
+        self.current_project = "Curso proprio de Python"
 
     def philosophy(self):
-        return "Não preciso saber tudo. Só preciso continuar aprendendo."
+        return "Nao preciso saber tudo. So preciso continuar aprendendo."
 ```
 
 <br>
@@ -56,10 +56,10 @@ class Diego:
 <div align="center">
 
 <a href="https://github.com/DiegoAlvesDs/Cobrinha-">
-  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 </a>
 <a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
-  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 </a>
 
 </div>
@@ -75,12 +75,10 @@ class Diego:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF"/>
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
 <img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoAlvesDs&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF7B72"/>
 
 </div>
 
@@ -102,6 +100,6 @@ class Diego:
 
 ⭐ **Se algum projeto meu foi útil, deixa uma estrela!**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161B22,100:0D1117&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
 
 </div>
