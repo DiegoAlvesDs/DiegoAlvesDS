@@ -46,10 +46,10 @@
 
 <p align="center">
   <a href="https://github.com/DiegoAlvesDs/Cobrinha-">
-    <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Cobrinha"/>
+    <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Cobrinha"/>
   </a>
   <a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
-    <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Curso de Python"/>
+    <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Curso de Python"/>
   </a>
 </p>
 
@@ -61,8 +61,8 @@
 ## 📊 GitHub
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF" alt="Estatísticas do GitHub"/>
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF" alt="Estatísticas do GitHub"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas"/>
 </p>
 
 <p align="center">
