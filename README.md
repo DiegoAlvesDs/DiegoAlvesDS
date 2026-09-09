@@ -1,78 +1,124 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302B63,100:00F0FF&height=220&section=header&text=Ol%C3%A1!%20Eu%20sou%20o%20Diego&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Dev%20em%20aprendizado%20%7C%20Python%20%7C%20Web%20%7C%20Jogos&descSize=18&descAlignY=68" alt="Banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=40&section=header" alt="Neon skyline"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=650&separator=%3B&lines=Transformando+ideias+em+projetos+reais;Sempre+aprendendo+algo+novo;Criando.+Aprendendo.+Programando." alt="Typing SVG"/>
+<br/>
 
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=28&duration=2500&pause=850&color=00F5FF&center=true&vCenter=true&width=850&height=72&lines=DIEGO+ALVES+%2F%2F+SYSTEM+ONLINE;CODE.+CREATE.+LEVEL+UP.;BUILDING+THE+NEXT+VERSION+OF+MYSELF." alt="Animated terminal headline"/>
 
-<a href="https://github.com/DiegoAlvesDs?tab=repositories"><img src="https://img.shields.io/badge/Meus%20Projetos-00F0FF?style=for-the-badge&logo=github&logoColor=0D1117"/></a>
+<br/>
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:120018,45:350038,78:ff007a,100:00f5ff&height=210&section=header&text=DIEGO%20ALVES&fontSize=54&fontColor=f7f1ff&fontAlignY=42&desc=DEVELOPER%20IN%20PROGRESS%20%E2%80%A2%20WEB%20%E2%80%A2%20GAMES%20%E2%80%A2%20PYTHON&descSize=16&descAlignY=66&descColor=00f5ff&animation=fadeIn" alt="Diego Alves cyberpunk banner"/>
 
-<br>
+<br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<a href="https://github.com/DiegoAlvesDs?tab=repositories">
+  <img src="https://img.shields.io/badge/%5B%20ACCESS_PROJECTS%20%5D-00F5FF?style=for-the-badge&labelColor=09000f&color=00F5FF&logo=github&logoColor=09000f" alt="Acessar projetos"/>
+</a>
+<a href="https://diegoalvesds.github.io/DiegoAlvesDS/">
+  <img src="https://img.shields.io/badge/%5B%20OPEN_PROFILE%20%5D-FF007A?style=for-the-badge&labelColor=09000f&color=FF007A&logo=vercel&logoColor=ffffff" alt="Abrir perfil"/>
+</a>
 
-## 🚀 Sobre mim
+<br/><br/>
 
-- 🐍 Estudando **Python, HTML, CSS e JavaScript**
-- 🌐 Criando projetos para a **Web**
-- 🎮 Desenvolvendo **jogos e projetos interativos**
-- 📚 Criando meu **próprio curso de Python**
-- 🧠 Sempre aprendendo algo novo
-- 💡 *"Não preciso saber tudo. Só preciso continuar aprendendo."*
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
-
-## `<stack>`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,html,css,vscode,git,github&theme=dark&perline=7" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00F0FF"/>
-<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26"/>
-<img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6"/>
+<img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=flat-square&labelColor=09000f" alt="Status online"/>
+<img src="https://img.shields.io/badge/LOCATION-BRAZIL-FF007A?style=flat-square&labelColor=09000f" alt="Brasil"/>
+<img src="https://img.shields.io/badge/MODE-BUILDING-F7E600?style=flat-square&labelColor=09000f" alt="Building mode"/>
 
 </div>
 
-<br>
+<br/>
+
+<pre>
+╔══════════════════════════════════════════════════════════════════╗
+║  IDENTITY // Diego Alves                                         ║
+║  MISSION  // transformar curiosidade em projetos que funcionam   ║
+║  SIGNAL   // aprendendo, criando e evoluindo todos os dias       ║
+╚══════════════════════════════════════════════════════════════════╝
+</pre>
+
+## ▰ TRANSMISSÃO RECEBIDA
+
+Sou um desenvolvedor em evolução, construindo projetos para web, explorando Python e transformando ideias em experiências interativas. Meu foco não é parecer pronto — é continuar avançando.
+
+> <code>// A próxima versão de mim sempre está em desenvolvimento.</code>
 
 <div align="center">
 
-| Skill | Progresso |
+| NODE | DADOS ATUAIS |
 |:--|:--|
-| 🐍 Python | ![](https://progress-bar.xyz/80?title=python&color=00F0FF&width=250) |
-| 🟨 JavaScript | ![](https://progress-bar.xyz/65?title=js&color=F7DF1E&width=250) |
-| 🌐 HTML / CSS | ![](https://progress-bar.xyz/85?title=web&color=E34F26&width=250) |
-| 🎮 Lógica de jogos | ![](https://progress-bar.xyz/60?title=games&color=B392F0&width=250) |
+| <code>01</code> | 🐍 Estudando **Python, HTML, CSS e JavaScript** |
+| <code>02</code> | 🌐 Criando experiências e projetos para a **Web** |
+| <code>03</code> | 🎮 Desenvolvendo jogos e interfaces interativas |
+| <code>04</code> | 📚 Construindo meu próprio curso de Python |
+| <code>05</code> | 🧠 Aprendizado contínuo como sistema operacional |
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<br/>
 
-## `<projects>`
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
 
-<table align="center">
+## ▰ TECH_LOADOUT
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,html,css,vscode,git,github&theme=dark&perline=7" alt="Tecnologias"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PYTHON-00F5FF?style=for-the-badge&logo=python&logoColor=09000f" alt="Python"/>
+<img src="https://img.shields.io/badge/JAVASCRIPT-F7E600?style=for-the-badge&logo=javascript&logoColor=09000f" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/HTML5-FF5C35?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-B026FF?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3"/>
+
+</div>
+
+### <code>// LEVELS_OF_ACCESS</code>
+
+| Especialidade | Sinal | Evolução |
+|:--|:--|:--|
+| 🐍 Python | <code>CORE_LANGUAGE</code> | ![](https://progress-bar.xyz/80?title=PYTHON&color=00F5FF&width=260) |
+| 🟨 JavaScript | <code>WEB_LOGIC</code> | ![](https://progress-bar.xyz/65?title=JAVASCRIPT&color=F7E600&width=260) |
+| 🌐 HTML / CSS | <code>INTERFACE_SYSTEMS</code> | ![](https://progress-bar.xyz/85?title=WEB_UI&color=FF007A&width=260) |
+| 🎮 Game Logic | <code>INTERACTIVE_PROTOCOLS</code> | ![](https://progress-bar.xyz/60?title=GAME_LOGIC&color=B026FF&width=260) |
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ PROJECT_ARCHIVE
+
+<div align="center">
+
+### Projetos construídos para aprender, testar e deixar uma marca.
+
+</div>
+
+<table>
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [Python Snake](https://github.com/DiegoAlvesDs/Python_Snake)
-Jogo da cobrinha começado em Python e evoluído até rodar direto no navegador.
+### 🐍 PYTHON SNAKE
 
-`JavaScript` `HTML` `CSS`
+<code>STATUS: PLAYABLE // EVOLVING</code>
+
+Uma evolução do clássico Snake: começou em Python e foi transformado em uma experiência web com desafios, progressão e muito mais.
+
+<code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Canvas</code>
+
+[![Abrir projeto](https://img.shields.io/badge/OPEN_PROJECT-00F5FF?style=flat-square&logo=github&logoColor=09000f)](https://github.com/DiegoAlvesDs/Python_Snake)
 
 </td>
 <td width="50%" valign="top">
 
-### 📚 [Curso de Python](https://diegocapacapa.github.io/cursos/)
-Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
+### 📚 PYTHON COURSE
 
-`HTML` `CSS` · [acessar ↗](https://diegocapacapa.github.io/cursos/)
+<code>STATUS: TRANSMITTING KNOWLEDGE</code>
+
+Um curso próprio, criado do zero para tornar programação mais clara, prática e acessível para quem está começando.
+
+<code>HTML</code> <code>CSS</code> <code>Education</code>
+
+[![Acessar curso](https://img.shields.io/badge/ACCESS_COURSE-FF007A?style=flat-square&logo=googlechrome&logoColor=ffffff)](https://diegocapacapa.github.io/cursos/)
 
 </td>
 </tr>
@@ -81,64 +127,75 @@ Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
 <div align="center">
 
 <a href="https://github.com/DiegoAlvesDs/Python_Snake">
-  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Python Snake repository"/>
 </a>
 <a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
-  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Aulas Lógicas repository"/>
 </a>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
 
-## `<stats>`
+## ▰ LIVE_TELEMETRY
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0&ring_color=00F0FF"/>
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff&icon_color=FF007A&ring_color=00F5FF" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff" alt="Top languages"/>
 
-<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=highcontrast&hide_border=true&background=0D1117&ring=00F0FF&fire=B392F0&currStreakLabel=00F0FF"/>
+<br/>
 
+<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=highcontrast&hide_border=true&background=09000f&ring=00F5FF&fire=FF007A&currStreakLabel=00F5FF&sideLabels=f7f1ff&dates=9b8eaa" alt="GitHub streak"/>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
 
-## `<contribution_snake>`
+## ▰ CONTRIBUTION_GRID // SNAKE_PROTOCOL
 
 <div align="center">
 
 <!--START_SECTION:snake-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
 </picture>
 <!--END_SECTION:snake-->
 
+<br/>
+
+<code>AUTO-RUNNING:</code> a cobra percorre o seu histórico de contribuições, bloco por bloco.
+
 </div>
 
-> ⚡ A cobra come os quadradinhos do seu gráfico de contribuições — isso é gerado automaticamente pelo GitHub Actions.
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+## ▰ ROADMAP // NEXT_UPGRADES
 
-## `<roadmap>`
+- [x] <code>BOOT_SEQUENCE</code> — aprender lógica de programação
+- [x] <code>FIRST_RELEASE</code> — publicar meu primeiro jogo
+- [x] <code>KNOWLEDGE_SHARE</code> — criar meu curso de Python
+- [ ] <code>WEB_FRAMEWORK</code> — aprender React ou Django
+- [ ] <code>FULL_STACK_MODE</code> — publicar um projeto completo
+- [ ] <code>OPEN_SOURCE_SIGNAL</code> — contribuir em um projeto da comunidade
 
-- [x] Aprender lógica de programação
-- [x] Publicar meu primeiro jogo
-- [x] Criar meu próprio curso de Python
-- [ ] Aprender um framework web (React ou Django)
-- [ ] Publicar um projeto full-stack
-- [ ] Contribuir em um projeto open source
-
-<br>
+<br/>
 
 <div align="center">
 
-<a href="https://diegoalvesds.github.io/DiegoAlvesDS/"><img src="https://img.shields.io/badge/%E2%96%B6%20Interagir%20com%20meu%20perfil-B392F0?style=for-the-badge&labelColor=0D1117"/></a>
+## THE SYSTEM NEVER STOPS EVOLVING.
 
-⭐ **Se algum projeto meu foi útil, deixa uma estrela!**
+<a href="https://diegoalvesds.github.io/DiegoAlvesDS/">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20ENTER_THE_PROFILE-FF007A?style=for-the-badge&labelColor=09000f&logo=vercel&logoColor=ffffff" alt="Entrar no perfil"/>
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:302B63,100:0F0C29&height=140&section=footer"/>
+<br/><br/>
+
+⭐ Se algum projeto foi útil, deixe uma estrela. É o sinal de que vale continuar construindo.
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=42&section=footer" alt="Neon footer"/>
 
 </div>
