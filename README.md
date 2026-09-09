@@ -74,7 +74,7 @@ class Diego:
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [Cobrinha](https://github.com/DiegoAlvesDs/Cobrinha-)
+### 🐍 [Python Snake](https://github.com/DiegoAlvesDs/Python_Snake)
 Jogo da cobrinha começado em Python e evoluído até rodar direto no navegador.
 
 `JavaScript` `HTML` `CSS`
@@ -93,11 +93,11 @@ Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
 
 <div align="center">
 
-<a href="https://github.com/DiegoAlvesDs/Cobrinha-">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
+<a href="https://github.com/DiegoAlvesDs/Python_Snake">
+  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
 </a>
 <a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
+  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0"/>
 </a>
 
 </div>
@@ -108,12 +108,11 @@ Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0&ring_color=00F0FF"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF"/>
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=B392F0&ring_color=00F0FF"/>
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=00F0FF"/>
 
 <img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=highcontrast&hide_border=true&background=0D1117&ring=00F0FF&fire=B392F0&currStreakLabel=00F0FF"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoAlvesDs&theme=react-dark&bg_color=0D1117&color=00F0FF&line=B392F0&point=ffffff&hide_border=true"/>
 
 </div>
 
@@ -124,12 +123,15 @@ Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
 <div align="center">
 
 <!--START_SECTION:snake-->
-<img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</picture>
 <!--END_SECTION:snake-->
 
 </div>
 
-> ⚡ A cobra come os quadradinhos do seu gráfico de contribuições — isso é gerado automaticamente pelo GitHub Actions. Veja as instruções no final deste arquivo pra ativar no seu perfil.
+> ⚡ A cobra come os quadradinhos do seu gráfico de contribuições — isso é gerado automaticamente pelo GitHub Actions.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
