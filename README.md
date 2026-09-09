@@ -1,89 +1,201 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#07040e">
-  <title>Diego Alves — System Online</title>
-  <style>
-    :root { --cyan:#00f5ff; --pink:#ff007a; --yellow:#f7e600; --ink:#07040e; --panel:rgba(18,8,31,.78); --line:rgba(0,245,255,.3); --text:#f7f1ff; --muted:#b9aac7; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; color:var(--text); background:var(--ink); font-family:Inter,Segoe UI,Arial,sans-serif; overflow-x:hidden; }
-    #city { position:fixed; inset:0; width:100%; height:100%; opacity:.42; z-index:-2; }
-    .noise { position:fixed; inset:0; pointer-events:none; z-index:3; opacity:.04; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E"); }
-    .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
-    nav { display:flex; justify-content:space-between; align-items:center; padding:22px 0; border-bottom:1px solid var(--line); font:700 12px/1 "Courier New",monospace; letter-spacing:.13em; }
-    nav a { color:var(--cyan); text-decoration:none; } .status { color:var(--yellow); }
-    header { min-height:76vh; display:grid; align-items:center; padding:54px 0 80px; }
-    .eyebrow { color:var(--cyan); font:700 13px "Courier New",monospace; letter-spacing:.18em; }
-    h1 { margin:16px 0; max-width:850px; font-size:clamp(50px,10vw,112px); line-height:.87; letter-spacing:-.065em; text-transform:uppercase; text-shadow:4px 0 var(--pink),-2px 0 var(--cyan); }
-    h1 span { color:var(--cyan); } .lead { max-width:620px; color:var(--muted); font-size:clamp(17px,2.3vw,21px); line-height:1.65; }
-    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:30px; }
-    .btn { padding:14px 19px; border:1px solid var(--cyan); color:var(--cyan); background:rgba(0,245,255,.06); text-decoration:none; font:700 12px "Courier New",monospace; letter-spacing:.08em; transition:.2s; }
-    .btn:hover { color:var(--ink); background:var(--cyan); box-shadow:0 0 28px var(--cyan); transform:translateY(-2px); }
-    .btn.pink { border-color:var(--pink); color:var(--pink); background:rgba(255,0,122,.08); } .btn.pink:hover { color:white; background:var(--pink); box-shadow:0 0 28px var(--pink); }
-    section { padding:82px 0; border-top:1px solid var(--line); }
-    .label { color:var(--pink); font:700 12px "Courier New",monospace; letter-spacing:.14em; } h2 { font-size:clamp(31px,5vw,56px); margin:10px 0 30px; letter-spacing:-.045em; }
-    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:16px; }
-    .card { grid-column:span 4; min-height:190px; padding:24px; border:1px solid rgba(255,255,255,.14); background:linear-gradient(145deg,rgba(30,12,50,.82),var(--panel)); position:relative; overflow:hidden; }
-    .card:before { content:""; position:absolute; top:0; left:0; height:2px; width:100%; background:linear-gradient(90deg,var(--cyan),var(--pink)); }
-    .card h3 { margin:11px 0 10px; font-size:21px; } .card p { margin:0; color:var(--muted); line-height:1.55; }
-    .code { color:var(--cyan); font:700 11px "Courier New",monospace; letter-spacing:.1em; }
-    .project { grid-column:span 6; padding:30px; border:1px solid var(--line); background:rgba(8,4,17,.7); min-height:305px; display:flex; flex-direction:column; }
-    .project:nth-child(2) { border-color:rgba(255,0,122,.4); } .project h3 { font-size:31px; margin:15px 0 12px; } .project p { color:var(--muted); line-height:1.65; max-width:460px; }
-    .tags { margin-top:auto; display:flex; flex-wrap:wrap; gap:8px; } .tag { border:1px solid rgba(247,241,255,.23); padding:6px 8px; color:#ded0ef; font:11px "Courier New",monospace; }
-    .meter { display:grid; grid-template-columns:160px 1fr 48px; gap:14px; align-items:center; padding:14px 0; border-bottom:1px solid rgba(255,255,255,.1); font:700 13px "Courier New",monospace; }
-    .bar { height:8px; background:#21132e; overflow:hidden; } .bar i { display:block; height:100%; background:linear-gradient(90deg,var(--cyan),var(--pink)); box-shadow:0 0 15px var(--cyan); }
-    .terminal { background:#050208; border:1px solid var(--pink); padding:22px; color:#d9c8eb; font:15px/1.75 "Courier New",monospace; box-shadow:0 0 42px rgba(255,0,122,.08); } .terminal b { color:var(--cyan); } .terminal em { color:var(--yellow); font-style:normal; }
-    footer { padding:45px 0 60px; text-align:center; color:var(--muted); font:12px "Courier New",monospace; border-top:1px solid var(--line); }
-    @media(max-width:720px) { .card,.project { grid-column:span 12; } .meter { grid-template-columns:1fr 42px; } .meter .bar { grid-row:2; grid-column:span 2; } nav { font-size:10px; } }
-  </style>
-</head>
-<body>
-  <canvas id="city"></canvas><div class="noise"></div>
-  <div class="wrap">
-    <nav><span>DA//NET_2077</span><span class="status">● SYSTEM ONLINE</span><a href="https://github.com/DiegoAlvesDs">GITHUB ↗</a></nav>
-    <header>
-      <div>
-        <div class="eyebrow">// DEVELOPER IN PROGRESS · BRAZIL</div>
-        <h1>DIEGO<br><span>ALVES</span></h1>
-        <p class="lead">Transformando curiosidade em código, ideias em experiências e projetos em próximos níveis.</p>
-        <div class="actions"><a class="btn" href="https://github.com/DiegoAlvesDs?tab=repositories">[ ACCESS PROJECTS ]</a><a class="btn pink" href="#archive">[ EXPLORE ARCHIVE ]</a></div>
-      </div>
-    </header>
-    <section>
-      <div class="label">// IDENTITY PACKET</div><h2>Construindo em público.<br>Aprendendo sem pausa.</h2>
-      <div class="grid">
-        <article class="card"><div class="code">NODE_01</div><h3>Web</h3><p>Interfaces responsivas e experiências que nascem direto no navegador.</p></article>
-        <article class="card"><div class="code">NODE_02</div><h3>Games</h3><p>Lógica, interação e sistemas que transformam uma ideia em jogo.</p></article>
-        <article class="card"><div class="code">NODE_03</div><h3>Python</h3><p>Uma base sólida para aprender, criar e compartilhar conhecimento.</p></article>
-      </div>
-    </section>
-    <section id="archive">
-      <div class="label">// PROJECT ARCHIVE</div><h2>Experiências em construção.</h2>
-      <div class="grid">
-        <article class="project"><div class="code">PROJECT_001 · PLAYABLE</div><h3>🐍 Python Snake</h3><p>O clássico Snake, reimaginado como uma experiência web com desafio, evolução e personalidade.</p><div class="tags"><span class="tag">JAVASCRIPT</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">CANVAS</span></div></article>
-        <article class="project"><div class="code">PROJECT_002 · LEARNING</div><h3>📚 Curso de Python</h3><p>Um curso autoral pensado para tornar programação simples, prática e possível para quem está começando.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">EDUCATION</span></div></article>
-      </div>
-    </section>
-    <section>
-      <div class="label">// SKILL MATRIX</div><h2>Carregando novos poderes.</h2>
-      <div class="meter"><span>PYTHON</span><div class="bar"><i style="width:80%"></i></div><span>80%</span></div>
-      <div class="meter"><span>HTML / CSS</span><div class="bar"><i style="width:85%"></i></div><span>85%</span></div>
-      <div class="meter"><span>JAVASCRIPT</span><div class="bar"><i style="width:65%"></i></div><span>65%</span></div>
-      <div class="meter"><span>GAME LOGIC</span><div class="bar"><i style="width:60%"></i></div><span>60%</span></div>
-    </section>
-    <section>
-      <div class="label">// CURRENT MISSION</div><h2>Não preciso saber tudo.<br>Preciso continuar.</h2>
-      <div class="terminal"><b>diego@build-station:~$</b> status<br><em>MISSION:</em> explorar, criar e evoluir projetos reais<br><em>NEXT_UPGRADE:</em> framework web + projeto full-stack<br><em>SIGNAL:</em> forte, constante, em construção<span id="cursor">_</span></div>
-    </section>
-  </div>
-  <footer>© DIEGO ALVES // BUILT WITH CURIOSITY, CODE &amp; NEON</footer>
-  <script>
-    const c=document.getElementById('city'),x=c.getContext('2d');
-    function draw(){c.width=innerWidth;c.height=innerHeight;const w=c.width,h=c.height; x.fillStyle='#07040e';x.fillRect(0,0,w,h); for(let i=0;i<110;i++){const sx=Math.random()*w,sy=Math.random()*h*.72,r=Math.random()*1.5;x.fillStyle=i%3?'#00f5ff':'#ff007a';x.globalAlpha=Math.random()*.8;x.fillRect(sx,sy,r,r)} x.globalAlpha=1; let px=0;while(px<w){const bw=35+Math.random()*100,bh=60+Math.random()*Math.min(330,h*.38),by=h-bh;let g=x.createLinearGradient(px,by,px,h);g.addColorStop(0,'#1a0930');g.addColorStop(1,'#050208');x.fillStyle=g;x.fillRect(px,by,bw,bh);for(let yy=by+14;yy<h-12;yy+=18)for(let xx=px+10;xx<px+bw-8;xx+=17)if(Math.random()>.45){x.fillStyle=Math.random()>.45?'rgba(0,245,255,.45)':'rgba(255,0,122,.42)';x.fillRect(xx,yy,4,6)}px+=bw+4} let g=x.createLinearGradient(0,h*.65,0,h);g.addColorStop(0,'transparent');g.addColorStop(1,'rgba(255,0,122,.12)');x.fillStyle=g;x.fillRect(0,h*.65,w,h*.35)}
-    draw(); addEventListener('resize',draw); setInterval(()=>document.getElementById('cursor').style.opacity=document.getElementById('cursor').style.opacity==='0'?'1':'0',530);
-  </script>
-</body>
-</html>
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=40&section=header" alt="Neon skyline"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=28&duration=2500&pause=850&color=00F5FF&center=true&vCenter=true&width=850&height=72&lines=DIEGO+ALVES+%2F%2F+SYSTEM+ONLINE;CODE.+CREATE.+LEVEL+UP.;BUILDING+THE+NEXT+VERSION+OF+MYSELF." alt="Animated terminal headline"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:120018,45:350038,78:ff007a,100:00f5ff&height=210&section=header&text=DIEGO%20ALVES&fontSize=54&fontColor=f7f1ff&fontAlignY=42&desc=DEVELOPER%20IN%20PROGRESS%20%E2%80%A2%20WEB%20%E2%80%A2%20GAMES%20%E2%80%A2%20PYTHON&descSize=16&descAlignY=66&descColor=00f5ff&animation=fadeIn" alt="Diego Alves cyberpunk banner"/>
+
+<br/>
+
+<a href="https://github.com/DiegoAlvesDs?tab=repositories">
+  <img src="https://img.shields.io/badge/%5B%20ACCESS_PROJECTS%20%5D-00F5FF?style=for-the-badge&labelColor=09000f&color=00F5FF&logo=github&logoColor=09000f" alt="Acessar projetos"/>
+</a>
+<a href="https://diegoalvesds.github.io/DiegoAlvesDS/">
+  <img src="https://img.shields.io/badge/%5B%20OPEN_PROFILE%20%5D-FF007A?style=for-the-badge&labelColor=09000f&color=FF007A&logo=vercel&logoColor=ffffff" alt="Abrir perfil"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=flat-square&labelColor=09000f" alt="Status online"/>
+<img src="https://img.shields.io/badge/LOCATION-BRAZIL-FF007A?style=flat-square&labelColor=09000f" alt="Brasil"/>
+<img src="https://img.shields.io/badge/MODE-BUILDING-F7E600?style=flat-square&labelColor=09000f" alt="Building mode"/>
+
+</div>
+
+<br/>
+
+<pre>
+╔══════════════════════════════════════════════════════════════════╗
+║  IDENTITY // Diego Alves                                         ║
+║  MISSION  // transformar curiosidade em projetos que funcionam   ║
+║  SIGNAL   // aprendendo, criando e evoluindo todos os dias       ║
+╚══════════════════════════════════════════════════════════════════╝
+</pre>
+
+## ▰ TRANSMISSÃO RECEBIDA
+
+Sou um desenvolvedor em evolução, construindo projetos para web, explorando Python e transformando ideias em experiências interativas. Meu foco não é parecer pronto — é continuar avançando.
+
+> <code>// A próxima versão de mim sempre está em desenvolvimento.</code>
+
+<div align="center">
+
+| NODE | DADOS ATUAIS |
+|:--|:--|
+| <code>01</code> | 🐍 Estudando **Python, HTML, CSS e JavaScript** |
+| <code>02</code> | 🌐 Criando experiências e projetos para a **Web** |
+| <code>03</code> | 🎮 Desenvolvendo jogos e interfaces interativas |
+| <code>04</code> | 📚 Construindo meu próprio curso de Python |
+| <code>05</code> | 🧠 Aprendizado contínuo como sistema operacional |
+
+</div>
+
+<br/>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ TECH_LOADOUT
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,html,css,vscode,git,github&theme=dark&perline=7" alt="Tecnologias"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PYTHON-00F5FF?style=for-the-badge&logo=python&logoColor=09000f" alt="Python"/>
+<img src="https://img.shields.io/badge/JAVASCRIPT-F7E600?style=for-the-badge&logo=javascript&logoColor=09000f" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/HTML5-FF5C35?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-B026FF?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3"/>
+
+</div>
+
+### <code>// LEVELS_OF_ACCESS</code>
+
+| Especialidade | Sinal | Evolução |
+|:--|:--|:--|
+| 🐍 Python | <code>CORE_LANGUAGE</code> | ![](https://progress-bar.xyz/80?title=PYTHON&color=00F5FF&width=260) |
+| 🟨 JavaScript | <code>WEB_LOGIC</code> | ![](https://progress-bar.xyz/65?title=JAVASCRIPT&color=F7E600&width=260) |
+| 🌐 HTML / CSS | <code>INTERFACE_SYSTEMS</code> | ![](https://progress-bar.xyz/85?title=WEB_UI&color=FF007A&width=260) |
+| 🎮 Game Logic | <code>INTERACTIVE_PROTOCOLS</code> | ![](https://progress-bar.xyz/60?title=GAME_LOGIC&color=B026FF&width=260) |
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ PROJECT_ARCHIVE
+
+<div align="center">
+
+### Projetos construídos para aprender, testar e deixar uma marca.
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🐍 PYTHON SNAKE
+
+<code>STATUS: PLAYABLE // EVOLVING</code>
+
+Uma evolução do clássico Snake: começou em Python e foi transformado em uma experiência web com desafios, progressão e muito mais.
+
+<code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Canvas</code>
+
+[![Abrir projeto](https://img.shields.io/badge/OPEN_PROJECT-00F5FF?style=flat-square&logo=github&logoColor=09000f)](https://github.com/DiegoAlvesDs/Python_Snake)
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 PYTHON COURSE
+
+<code>STATUS: TRANSMITTING KNOWLEDGE</code>
+
+Um curso próprio, criado do zero para tornar programação mais clara, prática e acessível para quem está começando.
+
+<code>HTML</code> <code>CSS</code> <code>Education</code>
+
+[![Acessar curso](https://img.shields.io/badge/ACCESS_COURSE-FF007A?style=flat-square&logo=googlechrome&logoColor=ffffff)](https://diegocapacapa.github.io/cursos/)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/DiegoAlvesDs/Python_Snake">
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Python Snake repository"/>
+</a>
+<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Aulas Lógicas repository"/>
+</a>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ LIVE_TELEMETRY
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff&icon_color=FF007A&ring_color=00F5FF" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff" alt="Top languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=highcontrast&hide_border=true&background=09000f&ring=00F5FF&fire=FF007A&currStreakLabel=00F5FF&sideLabels=f7f1ff&dates=9b8eaa" alt="GitHub streak"/>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ CONTRIBUTION_GRID // SNAKE_PROTOCOL
+
+<div align="center">
+
+<!--START_SECTION:snake-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
+</picture>
+<!--END_SECTION:snake-->
+
+<br/>
+
+<code>AUTO-RUNNING:</code> a cobra percorre o seu histórico de contribuições, bloco por bloco.
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ ROADMAP // NEXT_UPGRADES
+
+- [x] <code>BOOT_SEQUENCE</code> — aprender lógica de programação
+- [x] <code>FIRST_RELEASE</code> — publicar meu primeiro jogo
+- [x] <code>KNOWLEDGE_SHARE</code> — criar meu curso de Python
+- [ ] <code>WEB_FRAMEWORK</code> — aprender React ou Django
+- [ ] <code>FULL_STACK_MODE</code> — publicar um projeto completo
+- [ ] <code>OPEN_SOURCE_SIGNAL</code> — contribuir em um projeto da comunidade
+
+<br/>
+
+<div align="center">
+
+## THE SYSTEM NEVER STOPS EVOLVING.
+
+<a href="https://diegoalvesds.github.io/DiegoAlvesDS/">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20ENTER_THE_PROFILE-FF007A?style=for-the-badge&labelColor=09000f&logo=vercel&logoColor=ffffff" alt="Entrar no perfil"/>
+</a>
+
+<br/><br/>
+
+⭐ Se algum projeto foi útil, deixe uma estrela. É o sinal de que vale continuar construindo.
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=42&section=footer" alt="Neon footer"/>
+
+</div>
