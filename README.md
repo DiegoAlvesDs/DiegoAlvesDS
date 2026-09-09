@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=280&section=header&text=DIEGO%20ALVES&fontSize=56&fontColor=00F0FF&animation=twinkling&fontAlignY=35&desc=%3C%20building%20the%20future%2C%20one%20commit%20at%20a%20time%20%2F%3E&descSize=17&descAlignY=55&descColor=B392F0" alt="Banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302B63,100:00F0FF&height=220&section=header&text=Ol%C3%A1!%20Eu%20sou%20o%20Diego&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Dev%20em%20aprendizado%20%7C%20Python%20%7C%20Web%20%7C%20Jogos&descSize=18&descAlignY=68" alt="Banner"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duplex=false&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=650&separator=%3B&lines=%3E+system.boot()...;%3E+loading+diego_alves.exe;%3E+status%3A+aprendendo+sem+parar;%3E+stack%3A+python+%2F+js+%2F+html+%2F+css" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=650&separator=%3B&lines=Transformando+ideias+em+projetos+reais;Sempre+aprendendo+algo+novo;Criando.+Aprendendo.+Programando." alt="Typing SVG"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/●-online-00F0FF?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/foco-Python%20%7C%20Web%20%7C%20Jogos-B392F0?style=for-the-badge&labelColor=0D1117"/>
-<a href="https://github.com/DiegoAlvesDs?tab=repositories"><img src="https://img.shields.io/badge/repositórios-00F0FF?style=for-the-badge&logo=github&logoColor=0D1117"/></a>
+<a href="https://github.com/DiegoAlvesDs?tab=repositories"><img src="https://img.shields.io/badge/Meus%20Projetos-00F0FF?style=for-the-badge&logo=github&logoColor=0D1117"/></a>
 
 </div>
 
@@ -16,25 +14,14 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-## `<terminal>`
+## 🚀 Sobre mim
 
-```python
-class Diego:
-    def __init__(self):
-        self.location    = "Brasil"
-        self.role        = "Dev em aprendizado"
-        self.stack       = ["Python", "JavaScript", "HTML", "CSS"]
-        self.builds      = ["jogos", "sites", "projetos interativos"]
-        self.now_working = "curso proprio de Python"
-        self.uptime      = "24/7 aprendendo"
-
-    def philosophy(self):
-        return "Nao preciso saber tudo. So preciso continuar aprendendo."
-
->>> diego = Diego()
->>> diego.philosophy()
-"Nao preciso saber tudo. So preciso continuar aprendendo."
-```
+- 🐍 Estudando **Python, HTML, CSS e JavaScript**
+- 🌐 Criando projetos para a **Web**
+- 🎮 Desenvolvendo **jogos e projetos interativos**
+- 📚 Criando meu **próprio curso de Python**
+- 🧠 Sempre aprendendo algo novo
+- 💡 *"Não preciso saber tudo. Só preciso continuar aprendendo."*
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
