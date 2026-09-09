@@ -135,6 +135,8 @@ Curso próprio, feito do zero, pra ensinar programação de um jeito simples.
 
 <div align="center">
 
+<a href="https://diegoalvesds.github.io/DiegoAlvesDS/"><img src="https://img.shields.io/badge/%E2%96%B6%20Interagir%20com%20meu%20perfil-B392F0?style=for-the-badge&labelColor=0D1117"/></a>
+
 ⭐ **Se algum projeto meu foi útil, deixa uma estrela!**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:302B63,100:0F0C29&height=140&section=footer"/>
