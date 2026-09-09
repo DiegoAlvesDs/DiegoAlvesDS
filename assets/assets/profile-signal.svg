@@ -1,0 +1,34 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Diego Alves — Python, web e jogos</title>
+  <desc id="desc">Painel escuro com linhas azul, roxa e vermelha animadas.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05030A"/><stop offset=".52" stop-color="#120C22"/><stop offset="1" stop-color="#09051A"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="48" y1="0" x2="1180" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/><stop offset=".48" stop-color="#7C3AED"/><stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#9ED8FF" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M48 58H290M990 58H1232M48 302H205M1075 302H1232" stroke="#9ED8FF" stroke-opacity=".35"/>
+  <path d="M48 58V92M1232 58V92M48 268V302M1232 268V302" stroke="#9ED8FF" stroke-opacity=".6"/>
+  <path d="M0 275C190 210 236 324 420 262C610 198 671 284 851 220C1027 158 1110 202 1280 131" stroke="url(#signal)" stroke-width="2" stroke-opacity=".8" filter="url(#glow)"/>
+  <circle cx="420" cy="262" r="5" fill="#7C3AED" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="851" cy="220" r="5" fill="#E11D48" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.8s" begin=".9s" repeatCount="indefinite"/></circle>
+  <rect x="48" y="105" width="4" height="106" rx="2" fill="url(#signal)"/>
+  <text x="72" y="143" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1">DIEGO ALVES</text>
+  <text x="74" y="177" fill="#9ED8FF" font-family="monospace" font-size="14" letter-spacing="3">PYTHON · WEB · GAMES · BUILDING IN PUBLIC</text>
+  <text x="74" y="224" fill="#B7A8CA" font-family="Arial, Helvetica, sans-serif" font-size="17">Ideias pequenas. Projetos reais. Próxima versão em construção.</text>
+  <text x="986" y="111" fill="#9ED8FF" font-family="monospace" font-size="11" letter-spacing="2">SIGNAL / 001</text>
+  <text x="986" y="136" fill="#B7A8CA" font-family="monospace" font-size="11">status: learning</text>
+  <text x="986" y="156" fill="#B7A8CA" font-family="monospace" font-size="11">mode: building</text>
+  <rect x="986" y="178" width="190" height="4" rx="2" fill="#211536"/>
+  <rect x="986" y="178" width="126" height="4" rx="2" fill="url(#signal)"><animate attributeName="width" values="60;160;126" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
