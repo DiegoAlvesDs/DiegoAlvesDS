@@ -14,7 +14,7 @@
 
 ## 🚀 Sobre mim
 
-- 🐍 Estudando **Python**
+- 🐍 Estudando **Python, HTML, CSS e JavaScript**
 - 🌐 Criando projetos para a **Web**
 - 🎮 Desenvolvendo **jogos e projetos interativos**
 - 📚 Criando meu **próprio curso de Python**
@@ -46,39 +46,27 @@
 
 <p align="center">
   <a href="https://github.com/DiegoAlvesDs/Cobrinha-">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Cobrinha"/>
+    <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Cobrinha-&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Cobrinha"/>
   </a>
   <a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Curso de Python"/>
+    <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Curso de Python"/>
   </a>
 </p>
 
 - 🐍 **[Cobrinha](https://github.com/DiegoAlvesDs/Cobrinha-)** — Jogo da cobrinha que comecei em Python e evoluí até a versão Web. `JavaScript` `HTML` `CSS`
-- 📚 **[Curso de Python](https://github.com/DiegoAlvesDs/Aulas-Logicas)** — Curso criado em HTML para aprender programação de forma simples e prática. 🌐 [Acessar](https://diegoalvesds.github.io/Aulas-Logicas/)
+- 📚 **[Curso de Python](https://diegocapacapa.github.io/cursos/)** — Curso criado em HTML para aprender programação de forma simples e prática. 🌐 [Acessar o curso](https://diegocapacapa.github.io/cursos/)
 
 ---
 
 ## 📊 GitHub
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF" alt="Estatísticas do GitHub"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas"/>
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=58A6FF" alt="Estatísticas do GitHub"/>
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72" alt="Streak de commits"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoAlvesDs&theme=tokyonight&hide_border=true&bg_color=0D1117&color=58A6FF&area=true&area_color=1F6FEB" alt="Gráfico de contribuições"/>
-</p>
-
----
-
-## 🏆 Conquistas
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DiegoAlvesDs&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Troféus"/>
 </p>
 
 ---
