@@ -1,83 +1,54 @@
-<pre>
- ###  ##### #####  ####  ###       ###  #     #   # #####  #### 
- #  #   #   #     #     #   #     #   # #     #   # #     #     
- #  #   #   ####  #  ## #   #     ##### #     #   # ####   ###  
- #  #   #   #     #   # #   #     #   # #      # #  #         # 
- ###  ##### #####  ####  ###      #   # #####   #   ##### ####  
-</pre>
+<h1 align="center">Diego Alves</h1>
+<p align="center">Aprendendo Python, HTML, CSS e JavaScript — construindo pra valer, não só lendo tutorial.</p>
 
-```
-$ whoami
-Diego Alves — construindo coisas com Python, HTML, CSS e JS
+<p align="center">
+  <a href="https://github.com/DiegoAlvesDs/Cobrinha-"><img src="https://img.shields.io/badge/projeto-Cobrinha%20Infinita%20PRO-1a7f37?style=flat-square"></a>
+  <img src="https://img.shields.io/badge/foco-Python%20%7C%20Web%20%7C%20Jogos-1a7f37?style=flat-square">
+</p>
 
-$ cat objetivo.txt
-Aprender fazendo. Cada projeto novo é desculpa pra aprender
-uma técnica que eu ainda não sabia — e depois ensinar pra alguém.
+<br>
 
-$ status --atual
-[✓] estudando Python, HTML, CSS, JavaScript
-[✓] construindo jogos e projetos interativos
-[~] montando meu próprio curso de Python
-[ ] próximo projeto: ainda não decidido, sugestões são bem-vindas
-```
+- 🔭 Atualmente construindo meu **próprio curso de Python**
+- 🌱 Aprofundando **Python, HTML, CSS e JavaScript**
+- 🎮 Curto transformar o que aprendo em **jogos e projetos interativos** — fica mais fácil fixar o conteúdo
+- 💬 Pode perguntar sobre lógica de jogos em canvas, Snake e o que aprendi construindo do zero
+- 📌 Cada repositório aqui é algo que eu terminei de verdade, não um clone de tutorial
 
----
+<br>
 
-### 🎮 SAVE FILE — meu progresso até aqui
+## Projeto em destaque
 
-Peguei emprestado o HUD do meu próprio jogo pra mostrar onde eu tô:
+### 🐍 [Cobrinha Infinita PRO](https://github.com/DiegoAlvesDs/Cobrinha-)
 
-```
-┌─────────────────────────────────────────────────┐
-│  JOGADOR: Diego                                  │
-│  🪙 PROJETOS CONCLUÍDOS   ▓▓▓▓▓▓░░░░  em progresso│
-│  ⭐ NÍVEL                 iniciante → intermediário│
-│  🗺️  MODO ATUAL           Aprendendo na prática    │
-└─────────────────────────────────────────────────┘
-```
+Comecei com a ideia de fazer um Snake simples. Foi crescendo até virar um jogo com bem mais profundidade do que o clássico:
 
-Não é modéstia forçada — sou aprendiz mesmo, e é exatamente por isso que eu documento o que construo. Cada repositório aqui é uma fase que eu venci de verdade, não um tutorial copiado.
+| | |
+|---|---|
+| 🎨 **17 temas** visuais | trocáveis a qualquer momento |
+| 🗺️ **8 modos de mapa** | Clássico, Sem Parede, Velocidade, Tempo, Obstáculos, Caos, Espelho, Infinito |
+| 💎 **30+ skins** | desenhadas à mão em canvas, desbloqueáveis por nível ou moeda |
+| ⭐ **XP e progressão de conta** | separada da pontuação de cada partida |
+| 🏆 **Ranking global** | via Supabase, com fallback local quando offline |
+| 🎞️ **Movimento suave** | interpolação entre passos, em vez do "pulo" clássico de grade |
 
----
+Tudo em HTML, CSS e JavaScript puro — sem framework, sem engine pronta. A física de colisão, o desenho de cada skin e a lógica de cada modo de mapa foram escritos do zero.
 
-### 🗺️ MODOS DE MAPA (o que eu manjo)
+<br>
 
-| Modo | Tecnologia | Como eu uso |
-|---|---|---|
-| 🐍 Clássico | **Python** | lógica, automação, base de tudo que eu aprendo depois |
-| 🧱 Estrutura | **HTML** | esqueleto de qualquer projeto de web |
-| 🎨 Estilo | **CSS** | é aqui que um projeto para de parecer protótipo |
-| ⚡ Interativo | **JavaScript** | onde a coisa realmente ganha vida |
+## Tecnologias
 
----
+<p>
+  <img src="https://img.shields.io/badge/-Python-14161a?style=flat-square&logo=python&logoColor=3776AB">
+  <img src="https://img.shields.io/badge/-HTML5-14161a?style=flat-square&logo=html5&logoColor=E34F26">
+  <img src="https://img.shields.io/badge/-CSS3-14161a?style=flat-square&logo=css3&logoColor=1572B6">
+  <img src="https://img.shields.io/badge/-JavaScript-14161a?style=flat-square&logo=javascript&logoColor=F7DF1E">
+  <img src="https://img.shields.io/badge/-Git-14161a?style=flat-square&logo=git&logoColor=F05032">
+</p>
 
-### 🏆 PROJETO EM DESTAQUE
+<br>
 
-**Cobrinha Infinita PRO** — não é só um jogo da cobrinha. É:
+## Contato
 
-- 17 temas visuais diferentes
-- 8 modos de mapa (incluindo Caos, Espelho e Obstáculos)
-- 30+ skins desbloqueáveis por nível ou moeda
-- Sistema de XP, ranking global e movimento com física própria
-
-Comecei querendo fazer o Snake mais simples possível. Não parei até ele ter mais profundidade que muito jogo mobile por aí.
-
-**[→ github.com/DiegoAlvesDs/Cobrinha-](https://github.com/DiegoAlvesDs/Cobrinha-)**
-
----
-
-### 📡 CONECTA
-
-```
-$ contato --github
-> github.com/DiegoAlvesDs
-```
-
-<sub>Se você chegou até aqui lendo, valeu a pena escrever isso com carinho.</sub>
-
-<pre>
- ┌─┐┌─┐┌┬┐┌─┐  ┌─┐┬  ┬┌─┐┬─┐
- │ ┬├─┤│││├┤   │ │└┐┌┘├┤ ├┬┘
- └─┘┴ ┴┴ ┴└─┘  └─┘ └┘ └─┘┴└─
-        continue? [S/n]
-</pre>
+<p>
+  <a href="https://github.com/DiegoAlvesDs"><img src="https://img.shields.io/badge/GitHub-DiegoAlvesDs-181717?style=flat-square&logo=github"></a>
+</p>
