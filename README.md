@@ -1,139 +1,81 @@
-<div align="center">
+faça isso ser algo extraordinario algo imensuravel de lindo impecavel:&#x20;
+\<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:00c060,100:0a5c2e&height=200&section=header&text=%F0%9F%90%8D%20Python%20Snake&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=Um%20jogo%20da%20cobrinha%20evolu%C3%ADdo%20%E2%80%94%20skins%2C%20temas%2C%20ranking%20global%20e%20mais&descSize=15&descAlignY=72](https://capsule-render.vercel.app/api?type=waving\&color=0:00c060,100:0a5c2e\&height=200\&section=header\&text=%F0%9F%90%8D%20Python%20Snake\&fontSize=40\&fontColor=ffffff\&animation=fadeIn\&desc=Um%20jogo%20da%20cobrinha%20evolu%C3%ADdo%20%E2%80%94%20skins%2C%20temas%2C%20ranking%20global%20e%20mais\&descSize=15\&descAlignY=72)" alt="Banner"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/main/assets/profile-signal.svg">
-  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/main/assets/profile-signal.svg" alt="Diego Alves — Python, web e jogos">
-</picture>
+\# 🐍 Python Snake
 
-<br/><br/>
+Um jogo da cobrinha que comecei em Python e evoluí até uma versão completa para Web — com loja de skins, temas animados, ranking global e progresso salvo na nuvem.
 
-<a href="#projetos-em-destaque">Projetos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#tech-stack">Ferramentas</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#atividade-em-tempo-real">Atividade</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/DiegoAlvesDs?tab=repositories">Repositórios ↗</a>
+![JavaScript]\([https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black))
+![HTML5]\([https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white))
+![CSS3]\([https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white))
+![Supabase]\([https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white))
 
-</div>
+🎮 \*\*[JOGAR AGORA]\([https://diegoalvesds.github.io/python-snake/)\*\*](https://diegoalvesds.github.io/python-snake/\)**) — funciona no PC e no celular!
 
-<br/>
+\---
 
-## Olá.
+\## ✨ Funcionalidades
 
-Eu sou o Diego — alguém que aprende construindo. Estudo programação porque gosto do momento em que uma ideia deixa de ser só uma ideia e começa a responder, calcular, se mover ou virar jogo.
+\| | |
+\|---|---|
+\| 💎 \*\*50+ skins\*\* | Da Sólida grátis até a Lendária, Fênix e Dragão Ancestral — cada uma com efeitos visuais próprios |
+\| 🎨 \*\*23 temas\*\* | Cenários vivos e animados: Cosmos com buraco negro, Vulcão com lava, Tempestade com relâmpagos, Sakura, Abismo e mais |
+\| 🗺️ \*\*9 modos de mapa\*\* | Clássico, Sem Parede, Infinito, Velocidade, Tempo, Obstáculos, Caos, Espelho e Gigante 2x |
+\| 🏆 \*\*Ranking global\*\* | Dispute sua posição em cada modo, com pontuação, tempo e dificuldade |
+\| 🔐 \*\*Login e progresso na nuvem\*\* | Entre com Google, Facebook ou e-mail e sincronize moedas, XP, skins e nick (Supabase) |
+\| 📱 \*\*PC e celular\*\* | Teclado (WASD/setas) no PC; swipe, D-pad e vibração no celular |
+\| 👁 \*\*Prévia de skins\*\* | Uma cobrinha IA de demonstração mostra a skin em ação antes de você comprar |
 
-Meu foco hoje está entre **Python**, web e experiências interativas. Este perfil não é uma lista de tecnologias; é um registro do que estou criando enquanto descubro até onde consigo levar cada projeto.
+\---
 
-<details>
-<summary><b>O que estou buscando agora</b></summary>
-<br/>
+\## 🎮 Como jogar
 
-- Consolidar uma base forte de lógica e Python.
-- Criar experiências web mais completas e bem-acabadas.
-- Levar projetos de estudo até versões que outras pessoas possam usar.
-- Continuar aprendendo em público, um commit por vez.
+1\. Escolha o \*\*nick\*\*, o \*\*tema\*\*, a \*\*dificuldade\*\* (Normal ou Insano) e o \*\*modo de mapa\*\*
+2\. Clique em \*\*▶ PLAY\*\*
+3\. Controle a cobra, coma as maçãs e não encoste no próprio corpo!
 
-</details>
+\| Plataforma | Controles |
+\|---|---|
+\| 💻 PC | Setas ou \`WASD\` · \`ESC\` pausa |
+\| 📱 Celular | Deslize na tela (swipe) ou use o D-pad |
 
----
+Cada maçã vale moedas 🪙 e pontos que viram XP ⭐ — suba de nível para desbloquear skins exclusivas na loja.
 
-## Tech stack
+\---
 
-<div align="center">
+\## 🛠️ Tecnologias
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&theme=dark&perline=7" alt="Python, JavaScript, HTML, CSS, Git, GitHub e VS Code"/>
+\- \*\*JavaScript\*\* — lógica do jogo, canvas, física e colisões
+\- \*\*HTML5 + CSS3\*\* — interface responsiva com temas dinâmicos
+\- \*\*Supabase\*\* — autenticação (OAuth + magic link) e sincronização de progresso/ranking
+\- \*\*Canvas API\*\* — renderização do mapa, skins e efeitos
 
-</div>
+\---
 
-<br/>
+\## 🚀 Rodar localmente
 
-| Ferramenta | Onde ela entra |
-|:--|:--|
-| **Python** | Minha base para lógica, exercícios, automações e experimentos. |
-| **JavaScript** | Onde ideias ganham movimento e interação no navegador. |
-| **HTML + CSS** | A estrutura e a apresentação das experiências que construo. |
-| **Git + GitHub** | Meu histórico de aprendizado aberto, projeto por projeto. |
+É só clonar (ou baixar) e abrir o \`index.html\` no navegador:
 
-<div align="center">
+\`\`\`bash
+git clone [https://github.com/DiegoAlvesDs/python-snake.git](https://github.com/DiegoAlvesDs/python-snake.git)
+\`\`\`
 
-<sub>Em vez de “níveis”, prefiro projetos que mostrem o que aprendi.</sub>
+Não precisa instalar nada — o jogo roda 100% no navegador.
 
-</div>
+\---
 
----
+\## 📋 Histórico de versões
 
-## Projetos em destaque
+O jogo está em constante evolução! As novidades de cada versão ficam registradas no próprio jogo, no botão \*\*"📋 Novidades da versão"\*\* do menu.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+\---
 
-### Python Snake
+\## 👨‍💻 Sobre
 
-<sub>JOGO · WEB · EM EVOLUÇÃO</sub>
+Feito por \*\*[Diego Alves](https://github.com/DiegoAlvesDs)\*\* como projeto de estudo de JavaScript, evoluindo versão após versão desde a primeira cobrinha em Python.
 
-O clássico Snake foi o ponto de partida. A versão atual cresceu para muito além do tabuleiro: desafios, personalização, progressão e uma experiência feita para abrir no navegador e jogar.
+⭐ Se divertiu ou gostou do projeto, deixe uma estrela!
 
-<br/>
+\---
 
-<a href="https://github.com/DiegoAlvesDs/Python_Snake">Repositório ↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://diegoalvesds.github.io/python-snake/">Jogar ↗</a>
-
-</td>
-<td width="50%" valign="top">
-
-### Aulas de Lógica
-
-<sub>PYTHON · 50 EXERCÍCIOS · APRENDIZADO PRÁTICO</sub>
-
-Uma trilha que criei enquanto estudava: 50 exercícios em Python, começando no <code>Hello, World!</code> e chegando a funções aplicadas a problemas de física.
-
-<br/>
-
-<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">Explorar o curso ↗</a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-<a href="https://github.com/DiegoAlvesDs/Python_Snake"><img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=transparent&hide_border=true&title_color=7C3AED&text_color=9CA3AF&icon_color=E11D48" alt="Repositório Python Snake"/></a>
-<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas"><img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=transparent&hide_border=true&title_color=2563EB&text_color=9CA3AF&icon_color=7C3AED" alt="Repositório Aulas de Lógica"/></a>
-
-</div>
-
----
-
-## Atividade em tempo real
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=7C3AED&text_color=9CA3AF&icon_color=E11D48&ring_color=2563EB" alt="Estatísticas públicas do GitHub"/>
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=transparent&hide_border=true&title_color=2563EB&text_color=9CA3AF" alt="Linguagens mais usadas"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=transparent&hide_border=true&ring=7C3AED&fire=E11D48&currStreakLabel=2563EB&sideLabels=9CA3AF&dates=9CA3AF" alt="Sequência de contribuições"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<!--START_SECTION:snake-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</picture>
-<!--END_SECTION:snake-->
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<sub>FEITO COM CURIOSIDADE, ERROS CORRIGIDOS E VONTADE DE CONTINUAR.</sub>
-
-</div>
+\<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:00c060,100:0a5c2e&height=100&section=footer](https://capsule-render.vercel.app/api?type=waving\&color=0:00c060,100:0a5c2e\&height=100\&section=footer)" alt="Rodapé"/>
