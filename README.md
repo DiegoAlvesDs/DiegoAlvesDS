@@ -1,211 +1,201 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020b08,25:064b2b,55:00a854,100:8cffb7&height=290&section=header&text=%F0%9F%90%8D%20PYTHON%20SNAKE&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=MAIS%20DO%20QUE%20SOBREVIVER.%20%C3%89%20SOBRE%20DOMINAR%20O%20MAPA.&descSize=17&descAlignY=61&descColor=e3ffed&animation=fadeIn" alt="Python Snake — banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=40&section=header" alt="Neon skyline"/>
 
 <br/>
 
-# O clássico voltou. Agora ele tem um universo inteiro.
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=28&duration=2500&pause=850&color=00F5FF&center=true&vCenter=true&width=850&height=72&lines=DIEGO+ALVES+%2F%2F+SYSTEM+ONLINE;CODE.+CREATE.+LEVEL+UP.;BUILDING+THE+NEXT+VERSION+OF+MYSELF." alt="Animated terminal headline"/>
 
-**Python Snake** é uma experiência web inspirada no jogo da cobrinha,  
-transformada em uma jornada de evolução, coleção e competição.
+<br/>
 
-<a href="https://diegoalvesds.github.io/python-snake/">
-  <img src="https://img.shields.io/badge/%E2%96%B6%20JOGAR%20AGORA-00B85A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Jogar agora"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:120018,45:350038,78:ff007a,100:00f5ff&height=210&section=header&text=DIEGO%20ALVES&fontSize=54&fontColor=f7f1ff&fontAlignY=42&desc=DEVELOPER%20IN%20PROGRESS%20%E2%80%A2%20WEB%20%E2%80%A2%20GAMES%20%E2%80%A2%20PYTHON&descSize=16&descAlignY=66&descColor=00f5ff&animation=fadeIn" alt="Diego Alves cyberpunk banner"/>
+
+<br/>
+
+<a href="https://github.com/DiegoAlvesDs?tab=repositories">
+  <img src="https://img.shields.io/badge/%5B%20ACCESS_PROJECTS%20%5D-00F5FF?style=for-the-badge&labelColor=09000f&color=00F5FF&logo=github&logoColor=09000f" alt="Acessar projetos"/>
 </a>
-<a href="https://github.com/DiegoAlvesDs/python-snake">
-  <img src="https://img.shields.io/badge/%3C%2F%3E%20VER%20C%C3%93DIGO-151b18?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/>
+<a href="https://github.com/DiegoAlvesDs?tab=repositories">
+  <img src="https://img.shields.io/badge/%5B%20EXPLORE_ARCHIVE%20%5D-FF007A?style=for-the-badge&labelColor=09000f&color=FF007A&logo=github&logoColor=ffffff" alt="Explorar repositórios"/>
 </a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
-<img src="https://img.shields.io/badge/Canvas_API-101010?style=flat-square&logo=html5&logoColor=white" alt="Canvas API"/>
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
-
-<br/><br/>
-
-<a href="#-o-universo">Universo</a> •
-<a href="#-escolha-seu-desafio">Modos</a> •
-<a href="#-evolua-do-seu-jeito">Progressão</a> •
-<a href="#-como-jogar">Como jogar</a>
+<img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=flat-square&labelColor=09000f" alt="Status online"/>
+<img src="https://img.shields.io/badge/LOCATION-BRAZIL-FF007A?style=flat-square&labelColor=09000f" alt="Brasil"/>
+<img src="https://img.shields.io/badge/MODE-BUILDING-F7E600?style=flat-square&labelColor=09000f" alt="Building mode"/>
 
 </div>
 
----
+<br/>
 
-## ✦ O universo
+<pre>
+╔══════════════════════════════════════════════════════════════════╗
+║  IDENTITY // Diego Alves                                         ║
+║  MISSION  // transformar curiosidade em projetos que funcionam   ║
+║  SIGNAL   // aprendendo, criando e evoluindo todos os dias       ║
+╚══════════════════════════════════════════════════════════════════╝
+</pre>
 
-> Você não controla apenas uma cobra. Você constrói sua lenda, uma maçã de cada vez.
+## ▰ TRANSMISSÃO RECEBIDA
 
-O que começou como um projeto em Python evoluiu para uma experiência completa no navegador. Cada partida é uma oportunidade de superar seu recorde, ganhar moedas, subir de nível e deixar sua marca no ranking global.
+Sou um desenvolvedor em evolução, construindo projetos para web, explorando Python e transformando ideias em experiências interativas. Meu foco não é parecer pronto — é continuar avançando.
+
+> <code>// A próxima versão de mim sempre está em desenvolvimento.</code>
 
 <div align="center">
 
-| 🐍 | 🎨 | 🗺️ | 🏆 |
-|:---:|:---:|:---:|:---:|
-| **50+ skins** | **23 temas** | **9 modos** | **Ranking global** |
-| Colecione estilos | Explore cenários | Domine regras novas | Conquiste seu lugar |
+| NODE | DADOS ATUAIS |
+|:--|:--|
+| <code>01</code> | 🐍 Estudando **Python, HTML, CSS e JavaScript** |
+| <code>02</code> | 🌐 Criando experiências e projetos para a **Web** |
+| <code>03</code> | 🎮 Desenvolvendo jogos e interfaces interativas |
+| <code>04</code> | 📚 Construindo meu próprio curso de Python |
+| <code>05</code> | 🧠 Aprendizado contínuo como sistema operacional |
 
 </div>
 
----
+<br/>
 
-## 🎨 Todo jogo tem uma identidade. O seu também.
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ TECH_LOADOUT
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,html,css,vscode,git,github&theme=dark&perline=7" alt="Tecnologias"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PYTHON-00F5FF?style=for-the-badge&logo=python&logoColor=09000f" alt="Python"/>
+<img src="https://img.shields.io/badge/JAVASCRIPT-F7E600?style=for-the-badge&logo=javascript&logoColor=09000f" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/HTML5-FF5C35?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-B026FF?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3"/>
+
+</div>
+
+### <code>// LEVELS_OF_ACCESS</code>
+
+| Especialidade | Sinal | Evolução |
+|:--|:--|:--|
+| 🐍 Python | <code>CORE_LANGUAGE</code> | ![](https://progress-bar.xyz/80?title=PYTHON&color=00F5FF&width=260) |
+| 🟨 JavaScript | <code>WEB_LOGIC</code> | ![](https://progress-bar.xyz/65?title=JAVASCRIPT&color=F7E600&width=260) |
+| 🌐 HTML / CSS | <code>INTERFACE_SYSTEMS</code> | ![](https://progress-bar.xyz/85?title=WEB_UI&color=FF007A&width=260) |
+| 🎮 Game Logic | <code>INTERACTIVE_PROTOCOLS</code> | ![](https://progress-bar.xyz/60?title=GAME_LOGIC&color=B026FF&width=260) |
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ PROJECT_ARCHIVE
+
+<div align="center">
+
+### Projetos construídos para aprender, testar e deixar uma marca.
+
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💎 Skins que contam uma história
+### 🐍 PYTHON SNAKE
 
-Comece com o essencial e alcance o extraordinário. Da **Sólida** às raridades como **Fênix** e **Dragão Ancestral**, cada skin transforma a presença da sua cobra na arena.
+<code>STATUS: PLAYABLE // EVOLVING</code>
 
-**Antes de decidir:** use a prévia com uma cobra IA e veja cada visual em movimento.
+Uma evolução do clássico Snake: começou em Python e foi transformado em uma experiência web com desafios, progressão e muito mais.
+
+<code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Canvas</code>
+
+[![Abrir projeto](https://img.shields.io/badge/OPEN_PROJECT-00F5FF?style=flat-square&logo=github&logoColor=09000f)](https://github.com/DiegoAlvesDs/Python_Snake)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌌 Cenários que mudam a partida
+### 📚 PYTHON COURSE
 
-Não existe apenas um tabuleiro. Viaje por **Cosmos**, enfrente a intensidade do **Vulcão**, sobreviva à **Tempestade**, relaxe na **Sakura** ou encare o vazio do **Abismo**.
+<code>STATUS: TRANSMITTING KNOWLEDGE</code>
 
-Cada tema traz uma atmosfera viva, animada e única.
+Um curso próprio, criado do zero para tornar programação mais clara, prática e acessível para quem está começando.
+
+<code>HTML</code> <code>CSS</code> <code>Education</code>
+
+[![Acessar curso](https://img.shields.io/badge/ACCESS_COURSE-FF007A?style=flat-square&logo=googlechrome&logoColor=ffffff)](https://diegocapacapa.github.io/cursos/)
 
 </td>
 </tr>
 </table>
 
----
-
-## 🗺️ Escolha seu desafio
-
-| Modo | A experiência |
-|:--|:--|
-| 🟢 **Clássico** | O desafio eterno: cresça, sobreviva e bata seu recorde. |
-| 🧱 **Sem Parede** | Atravesse as bordas e use o mapa a seu favor. |
-| ♾️ **Infinito** | Continue enquanto seus reflexos aguentarem. |
-| ⚡ **Velocidade** | Cada segundo conta. Reaja antes que seja tarde. |
-| ⏳ **Tempo** | Pontuação sob pressão: decida rápido, execute melhor. |
-| 🚧 **Obstáculos** | O mapa luta contra você. Encontre sua rota. |
-| 🎲 **Caos** | Espere o inesperado — e vença mesmo assim. |
-| 🪞 **Espelho** | Uma nova perspectiva para quem já domina o básico. |
-| 🦕 **Gigante 2x** | Grande demais para errar. Grande o bastante para impressionar. |
-
 <div align="center">
 
-**Normal para começar. Insano para ser lembrado.**
+<a href="https://github.com/DiegoAlvesDs/Python_Snake">
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Python_Snake&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Python Snake repository"/>
+</a>
+<a href="https://github.com/DiegoAlvesDs/Aulas-Logicas">
+  <img height="155" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=DiegoAlvesDs&repo=Aulas-Logicas&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&icon_color=FF007A" alt="Aulas Lógicas repository"/>
+</a>
 
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
 
-## ⭐ Evolua do seu jeito
-
-```text
-JOGUE  →  COLETE  →  EVOLUA  →  DESBLOQUEIE  →  CONQUISTE
-```
-
-Cada maçã vale mais do que pontos: ela rende moedas, acelera sua evolução e aproxima você de skins exclusivas. Quanto mais você joga, mais personalidade sua jornada ganha.
-
-| Recompensa | O que ela representa |
-|:--|:--|
-| 🪙 **Moedas** | Sua chave para conquistar novas skins e personalizações. |
-| ⭐ **XP** | Seu caminho para aumentar de nível e desbloquear recompensas. |
-| 🏅 **Recordes** | A prova de que você está evoluindo a cada partida. |
-| ☁️ **Nuvem** | Seu progresso protegido e sincronizado onde você estiver. |
-
-### Seu progresso acompanha você
-
-Entre com **Google, Facebook ou e-mail** e mantenha moedas, XP, nickname, skins e conquistas sincronizados com o Supabase. Troque de dispositivo sem abandonar sua história.
-
----
-
-## 🏆 Não basta jogar bem. É preciso deixar seu nome.
-
-O ranking global registra quem domina cada modo, dificuldade e desafio. Procure seu nickname, desafie amigos e volte para provar que seu último recorde não foi sorte.
+## ▰ LIVE_TELEMETRY
 
 <div align="center">
 
-### A arena está aberta. O topo ainda está esperando alguém.
-
-[![Jogar e subir no ranking](https://img.shields.io/badge/%F0%9F%8F%86%20ENFRENTAR%20O%20RANKING-ffb000?style=for-the-badge&logo=trophy&logoColor=161616)](https://diegoalvesds.github.io/python-snake/)
-
-</div>
-
----
-
-## 🎮 Como jogar
-
-### 01 — Prepare a arena
-
-Escolha seu **nickname**, tema, modo de mapa e dificuldade.
-
-### 02 — Inicie a corrida
-
-Pressione `▶ PLAY`, encontre a primeira maçã e comece a construir sua sequência.
-
-### 03 — Sobreviva com estilo
-
-Cresça sem encostar no próprio corpo. Leia o mapa, antecipe movimentos e não deixe a pressão comandar você.
-
-| Plataforma | Controles |
-|:--|:--|
-| 💻 **PC** | `← ↑ ↓ →` ou `W A S D` · `ESC` para pausar |
-| 📱 **Celular** | Swipe na tela ou D-pad virtual · vibração para uma resposta mais imersiva |
-
----
-
-## ⚙️ Por trás da experiência
-
-| Tecnologia | Missão |
-|:--|:--|
-| **JavaScript** | Motor do jogo, movimentação, colisões, lógica, economia e progressão. |
-| **Canvas API** | Renderização do mapa, cobra, alimentos, skins e efeitos visuais. |
-| **HTML5 + CSS3** | Interface responsiva, menus e ambientação dinâmica. |
-| **Supabase** | Autenticação, sincronização de progresso e ranking global. |
-
----
-
-## 🚀 Jogue localmente
-
-```bash
-git clone https://github.com/DiegoAlvesDs/python-snake.git
-cd python-snake
-```
-
-Abra o arquivo `index.html` no navegador. Sem instalações, sem dependências, sem espera.
-
----
-
-<details>
-<summary><strong>📋 O jogo continua evoluindo</strong></summary>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DiegoAlvesDs&show_icons=true&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff&icon_color=FF007A&ring_color=00F5FF" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DiegoAlvesDs&layout=compact&theme=synthwave&hide_border=true&bg_color=09000f&title_color=00F5FF&text_color=f7f1ff" alt="Top languages"/>
 
 <br/>
 
-As novidades de cada versão ficam registradas dentro do próprio jogo, no botão **“📋 Novidades da versão”**. Entre, jogue e acompanhe a próxima evolução.
+<img src="https://streak-stats.demolab.com?user=DiegoAlvesDs&theme=highcontrast&hide_border=true&background=09000f&ring=00F5FF&fire=FF007A&currStreakLabel=00F5FF&sideLabels=f7f1ff&dates=9b8eaa" alt="GitHub streak"/>
 
-</details>
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ CONTRIBUTION_GRID // SNAKE_PROTOCOL
+
+<div align="center">
+
+<!--START_SECTION:snake-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/DiegoAlvesDs/DiegoAlvesDs/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
+</picture>
+<!--END_SECTION:snake-->
+
+<br/>
+
+<code>AUTO-RUNNING:</code> a cobra percorre o seu histórico de contribuições, bloco por bloco.
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="Neon separator"/>
+
+## ▰ ROADMAP // NEXT_UPGRADES
+
+- [x] <code>BOOT_SEQUENCE</code> — aprender lógica de programação
+- [x] <code>FIRST_RELEASE</code> — publicar meu primeiro jogo
+- [x] <code>KNOWLEDGE_SHARE</code> — criar meu curso de Python
+- [ ] <code>WEB_FRAMEWORK</code> — aprender React ou Django
+- [ ] <code>FULL_STACK_MODE</code> — publicar um projeto completo
+- [ ] <code>OPEN_SOURCE_SIGNAL</code> — contribuir em um projeto da comunidade
 
 <br/>
 
 <div align="center">
 
-## A primeira maçã é fácil. A última é lendária.
+## THE SYSTEM NEVER STOPS EVOLVING.
 
-<a href="https://diegoalvesds.github.io/python-snake/">
-  <img src="https://img.shields.io/badge/%F0%9F%90%8D%20ENTRAR%20NA%20ARENA-00c060?style=for-the-badge&logo=gamepad&logoColor=white" alt="Entrar na arena"/>
+<a href="https://github.com/DiegoAlvesDs?tab=repositories">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20EXPLORE_THE_ARCHIVE-FF007A?style=for-the-badge&labelColor=09000f&logo=github&logoColor=ffffff" alt="Explorar repositórios"/>
 </a>
 
 <br/><br/>
 
-Criado por [**Diego Alves**](https://github.com/DiegoAlvesDs) — de um primeiro Snake em Python a um universo web em constante evolução.
-
-Se o projeto te divertiu, deixe uma estrela. Ela ajuda a próxima evolução a chegar ainda mais longe. ⭐
+⭐ Se algum projeto foi útil, deixe uma estrela. É o sinal de que vale continuar construindo.
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8cffb7,55:00a854,75:064b2b,100:020b08&height=170&section=footer" alt="Python Snake — rodapé"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:09000f,35:27103b,70:ff007a,100:00f5ff&height=42&section=footer" alt="Neon footer"/>
 
 </div>
