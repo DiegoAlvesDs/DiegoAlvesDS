@@ -123,17 +123,6 @@ Trilha prática de lógica de programação em Python: 50 exercícios resolvidos
 
 ---
 
-## ▰ ROADMAP // NEXT_UPGRADES
-
-- [x] `BOOT_SEQUENCE` — aprender lógica de programação
-- [x] `FIRST_RELEASE` — publicar meu primeiro jogo
-- [x] `KNOWLEDGE_SHARE` — criar meus cursos de programação
-- [ ] `WEB_FRAMEWORK` — aprender React ou Django
-- [ ] `FULL_STACK_MODE` — publicar um projeto completo
-- [ ] `OPEN_SOURCE_SIGNAL` — contribuir em um projeto da comunidade
-
----
-
 <div align="center">
 
 ## THE SYSTEM NEVER STOPS EVOLVING.
