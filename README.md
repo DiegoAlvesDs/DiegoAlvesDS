@@ -39,7 +39,8 @@ Sou um desenvolvedor em evolução, construindo projetos para web, explorando Py
 | `02` | 🌐 Criando experiências e projetos para a **Web**  |
 | `03` | 🎮 Desenvolvendo jogos e interfaces interativas    |
 | `04` | 📚 Construindo meu próprio curso de programação    |
-| `05` | 🧠 Aprendizado contínuo como sistema operacional   |
+| `05` | 🎓 Estudando na **[Mate Academy](https://mate.academy/pt-br/courses/parttime/details)** |
+| `06` | 🧠 Aprendizado contínuo como sistema operacional   |
 
 ---
 
